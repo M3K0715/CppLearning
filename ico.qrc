@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>camera.png</file>
+        <file>net.png</file>
+        <file>uart.png</file>
+    </qresource>
+</RCC>

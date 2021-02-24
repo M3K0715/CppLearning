@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>camera.png</file>
+        <file>net.png</file>
+        <file>uart.png</file>
+        <file>../../../Users/86130/Pictures/Camera Roll/pic.png</file>
+        <file>pic.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix1">
+        <file>camera.png</file>
+        <file>net.png</file>
+        <file>uart.png</file>
+        <file>pic.png</file>
+        <file>ico.qrc</file>
+    </qresource>
+</RCC>

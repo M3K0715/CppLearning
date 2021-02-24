@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>opencv_local_camera</class>
+ <widget class="QWidget" name="opencv_local_camera">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>639</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>15</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" rowspan="2">
+    <widget class="QLabel" name="collect_area">
+     <property name="minimumSize">
+      <size>
+       <width>351</width>
+       <height>351</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>采集区</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="2">
+    <widget class="QLabel" name="capture_area">
+     <property name="minimumSize">
+      <size>
+       <width>211</width>
+       <height>211</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>捕捉区</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="3">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="open_camera">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>开启摄像头</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="close_camera">
+       <property name="text">
+        <string>关闭摄像头</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="train_module">
+       <property name="text">
+        <string>训练模型</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="capture_image">
+       <property name="text">
+        <string>捕捉图像</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="identify_image">
+       <property name="text">
+        <string>识别</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="goto_menu">
+     <property name="text">
+      <string>MENU</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QPushButton" name="exit_btn">
+     <property name="text">
+      <string>EXIT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <pointsize>17</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>面部识别</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
